@@ -1,0 +1,16 @@
+{
+  "name": "igniter/drivers",
+  "type": "igniter-extension",
+  "require": {
+    "php": ">=7.0.0",
+    "aws/aws-sdk-php": "~3.0",
+    "predis/predis": "~1.0",
+    "league/flysystem-rackspace": "~1.0",
+    "league/flysystem-aws-s3-v3": "~1.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
