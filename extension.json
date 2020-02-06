@@ -2,8 +2,12 @@
   "code": "igniter.drivers",
   "name": "Third-party Drivers",
   "description": "Provides third party drivers for services such as predis, aws, etc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "SamPoyigi",
-  "icon": "fa-screwdriver",
+  "icon": {
+    "class": "fa fa-screwdriver",
+    "color": "#664500",
+    "backgroundColor": "#FECC4D"
+  },
   "homepage": "https://github.com/tastyigniter/ti-ext-drivers"
 }
