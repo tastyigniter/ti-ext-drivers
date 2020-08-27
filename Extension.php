@@ -1,4 +1,6 @@
-<?php namespace Igniter\Drivers;
+<?php
+
+namespace Igniter\Drivers;
 
 use System\Classes\BaseExtension;
 
