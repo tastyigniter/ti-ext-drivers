@@ -2,7 +2,6 @@
   "name": "igniter/drivers",
   "type": "igniter-extension",
   "require": {
-    "php": ">=7.0.0",
     "aws/aws-sdk-php": "~3.0",
     "predis/predis": "~1.0",
     "league/flysystem-rackspace": "~1.0",
