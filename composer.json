@@ -1,6 +1,6 @@
 {
   "name": "igniter/drivers",
-  "type": "igniter-extension",
+  "type": "tastyigniter-extension",
   "require": {
     "aws/aws-sdk-php": "~3.0",
     "predis/predis": "~1.0",
