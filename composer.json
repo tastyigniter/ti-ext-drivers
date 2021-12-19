@@ -1,6 +1,14 @@
 {
-  "name": "igniter/drivers",
+  "name": "tastyigniter/ti-ext-drivers",
   "type": "tastyigniter-extension",
+  "description": "Provides third party drivers for services such as predis, aws, etc",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SamPoyigi",
+      "email": "sam@sampoyigi.com"
+    }
+  ],
   "require": {
     "predis/predis": "~1.0",
     "league/flysystem-rackspace": "~1.0",
@@ -8,9 +16,16 @@
     "league/flysystem-cached-adapter": "~1.0",
     "wildbit/swiftmailer-postmark": "~3.1"
   },
-  "config": {
-    "preferred-install": "dist"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "igniter.drivers",
+      "name": "Third-party Drivers",
+      "icon": {
+        "class": "fa fa-screwdriver",
+        "color": "#664500",
+        "backgroundColor": "#FECC4D"
+      },
+      "homepage": "https://tastyigniter.com/marketplace/item/igniter-drivers"
+    }
+  }
 }
