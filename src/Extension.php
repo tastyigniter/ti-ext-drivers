@@ -2,7 +2,7 @@
 
 namespace Igniter\Drivers;
 
-use System\Classes\BaseExtension;
+use Igniter\System\Classes\BaseExtension;
 
 /**
  * Debugbar Extension Information File
