@@ -11,8 +11,7 @@
   "require": {
     "predis/predis": "~1.0",
     "league/flysystem-aws-s3-v3": "~3.0",
-    "wildbit/swiftmailer-postmark": "~3.1",
-    "tastyigniter/flame": "v4.x-dev"
+    "wildbit/swiftmailer-postmark": "~3.1"
   },
   "autoload": {
     "psr-4": {
