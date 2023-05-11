@@ -8,6 +8,11 @@
 			"email": "sam@sampoyigi.com"
 		}
 	],
+	"require": {
+		"predis/predis": "~1.0",
+		"league/flysystem-aws-s3-v3": "~3.0",
+		"wildbit/swiftmailer-postmark": "~3.1"
+	},
 	"require-dev": {
 		"laravel/pint": "^1.2",
 		"nunomaduro/larastan": "^2.4.0",
@@ -50,10 +55,5 @@
 			"composer/installers": true
 		},
 		"sort-packages": true
-	},
-	"require": {
-		"predis/predis": "~1.0",
-		"league/flysystem-aws-s3-v3": "~3.0",
-		"wildbit/swiftmailer-postmark": "~3.1"
 	}
 }
