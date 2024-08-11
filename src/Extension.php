@@ -14,7 +14,5 @@ class Extension extends BaseExtension
      *
      * @return void
      */
-    public function register()
-    {
-    }
+    public function register() {}
 }
