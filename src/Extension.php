@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Igniter\Drivers;
 
 use Igniter\System\Classes\BaseExtension;
