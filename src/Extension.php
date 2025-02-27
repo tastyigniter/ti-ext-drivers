@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Igniter\Drivers;
 
-use Override;
 use Igniter\System\Classes\BaseExtension;
+use Override;
 
 /**
  * Debugbar Extension Information File
