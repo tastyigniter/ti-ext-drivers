@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Igniter\Drivers;
 
+use Override;
 use Igniter\System\Classes\BaseExtension;
 
 /**
@@ -16,5 +17,6 @@ class Extension extends BaseExtension
      *
      * @return void
      */
+    #[Override]
     public function register() {}
 }

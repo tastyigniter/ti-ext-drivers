@@ -15,6 +15,7 @@ return RectorConfig::configure()
     ->withSkip([
         ReturnTypeFromStrictNewArrayRector::class,
     ])
+    ->withPhpSets(php83: true)
     ->withPreparedSets(
         deadCode: true,
         codeQuality: true,
