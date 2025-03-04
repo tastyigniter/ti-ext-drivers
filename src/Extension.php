@@ -1,8 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Igniter\Drivers;
 
-use System\Classes\BaseExtension;
+use Igniter\System\Classes\BaseExtension;
+use Override;
 
 /**
  * Debugbar Extension Information File
@@ -14,7 +17,6 @@ class Extension extends BaseExtension
      *
      * @return void
      */
-    public function register()
-    {
-    }
+    #[Override]
+    public function register() {}
 }
