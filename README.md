@@ -13,10 +13,6 @@ The composer packages introduced by this extension are listed below:
 - **league/flysystem-aws-s3-v3** at version `~3.0`
 - **wildbit/swiftmailer-postmark** at version `~3.1`
 
-## Changelog
-
-Please see [CHANGELOG](https://github.com/tastyigniter/ti-ext-drivers/blob/master/CHANGELOG.md) for more information on what has changed recently.
-
 ## Reporting issues
 
 If you encounter a bug in this extension, please report it using the [Issue Tracker](https://github.com/tastyigniter/ti-ext-drivers/issues) on GitHub.
